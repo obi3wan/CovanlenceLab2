@@ -1,0 +1,33 @@
+* {
+    font-family: "Lobster', cursive;", "Book Antiqua", Palatino, serif;
+    background-color: lightgrey;
+}
+
+p, h2, .readme-wrapper {
+
+    text-align: center;
+
+}
+
+a {
+    text-decoration: none;
+    color: red;
+}
+
+.boxes {
+    display: block;
+    margin: 25px;
+    padding: 10px;
+    border: solid;
+    border-radius: 40px;
+}
+
+a:hover {
+    color: blue;
+    font-weight: bolder;
+    cursor: crosshair;
+}
+
+div {
+    width: 20%;
+}
