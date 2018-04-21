@@ -3,10 +3,11 @@
     background-color: lightgrey;
 }
 
-p, h2, .readme-wrapper {
-
+p,
+h2,
+.readme-wrapper {
+    background: content-box;
     text-align: center;
-
 }
 
 a {
@@ -16,11 +17,11 @@ a {
 
 .boxes {
     display: block;
-    margin: 25px;
-    padding: 10px;
     border: solid;
     border-radius: 40px;
 }
+
+#container {}
 
 a:hover {
     color: blue;
@@ -29,5 +30,25 @@ a:hover {
 }
 
 div {
-    width: 20%;
+    width: 60%;
+}
+
+#box1 {
+    background-color: cadetblue;
+}
+
+#box2 {
+    background-color: burlywood;
+    position: absolute;
+    left: 525px;
+    top: 0;
+    padding-right: 40px;
+}
+
+#box3 {
+    background-color: coral;
+}
+
+#box4 {
+    background-color: deeppink;
 }
